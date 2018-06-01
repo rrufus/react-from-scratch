@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.config.js"
+    "dev": "webpack-dev-server --config ./webpack/webpack.dev.config.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4",
     "webpack-dev-server": "^3.1.4"
   },
   "devDependencies": {
