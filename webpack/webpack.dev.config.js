@@ -5,7 +5,7 @@ var parentDir = path.join(__dirname, "../");
 
 module.exports = {
     entry: [
-        path.join(__dirname, '../index.js')
+        path.join(__dirname, '../index.jsx')
     ],
     mode: 'development',
     module: {
@@ -22,5 +22,8 @@ module.exports = {
     devServer: {
         contentBase: parentDir,
         historyApiFallback: true
+    },
+    resolve: {
+        extensions: ['.js', '.jsx']
     }
 }
